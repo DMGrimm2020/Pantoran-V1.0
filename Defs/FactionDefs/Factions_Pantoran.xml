@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <FactionDef>
+	    <defName>Pantoranoutlander</defName>
+	    <label>Pantoran Outpost</label>
+        <description>Mysterious Pantoran Race</description>
+        <pawnSingular>pantoran</pawnSingular>
+        <pawnsPlural>pantorans</pawnsPlural>
+        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canMakeRandomly>true</canMakeRandomly>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <expandingIconTexture>World/Expanding/PantoranFactionBase</expandingIconTexture>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<techLevel>Spacer</techLevel>
+	    <backstoryCategories>
+            <li>Pantoran_Backstory</li>
+        </backstoryCategories>
+		<geneticVariance>0.8</geneticVariance>
+        <goodwillDailyGain>0.25</goodwillDailyGain>
+        <goodwillDailyFall>0.25</goodwillDailyFall>
+        <leaderTitle>prime councilor</leaderTitle>
+		<hairTags>
+			<li>Rural</li>
+		    <li>TGpantoranhair</li>
+		</hairTags>
+        <caravanTraderKinds>
+            <li>Caravan_Pantoran_BulkGoods</li>
+            <li>Caravan_Pantoran_CombatSupplier</li>
+            <li>Caravan_Pantoran_PirateMerchant</li>
+            <li>Caravan_Pantoran_Exotic</li>
+        </caravanTraderKinds>
+        <visitorTraderKinds>
+            <li>Visitor_Pantoran_Standard</li>
+        </visitorTraderKinds>
+        <baseTraderKinds>
+            <li>Base_Pantoran_Standard</li>
+        </baseTraderKinds>
+        <allowedArrivalTemperatureRange>
+            <min>-100</min>
+            <max>28</max>
+        </allowedArrivalTemperatureRange>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+        <pawnGroupMakers>
+            <li>
+                <!-- Normal fights, standard mix -->
+                <kindDef>Combat</kindDef>
+                <options>
+					<Pantoran_Villager>5</Pantoran_Villager>
+                    <Pantoran_Town_Guard>10</Pantoran_Town_Guard>
+                    <Pantoran_Town_Councilman>10</Pantoran_Town_Councilman>
+                </options>
+            </li>
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <Pantoran_Villager>20</Pantoran_Villager>
+                    <Pantoran_Town_Guard>10</Pantoran_Town_Guard>
+                    <Pantoran_Town_Councilman>10</Pantoran_Town_Councilman>
+                </options>
+            </li>
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <Pantoran_Town_Trader>1</Pantoran_Town_Trader>
+                </traders>
+                <carriers>
+                    <Muffalo>6</Muffalo>
+                    <Dromedary>5</Dromedary>
+                    <Alpaca>2</Alpaca>
+                    <Elephant>1</Elephant>
+                </carriers>
+                <guards>
+                    <Pantoran_Villager>3</Pantoran_Villager>
+                    <Pantoran_Town_Guard>10</Pantoran_Town_Guard>
+				</guards>
+            </li>
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+				    <Pantoran_Villager>10</Pantoran_Villager>
+                    <Pantoran_Town_Guard>10</Pantoran_Town_Guard>
+                    <Pantoran_Town_Councilman>10</Pantoran_Town_Councilman>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <homeIconPath>World/DefaultFactionBase</homeIconPath>
+    </FactionDef>
+
+</Defs>    
