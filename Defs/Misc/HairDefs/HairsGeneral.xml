@@ -13,7 +13,7 @@
     </HairDef>
 
     <HairDef>
-        <defName>UEHairBun</defName>
+        <defName>HalnoHairBun</defName>
         <label>Hair Bun</label>
         <hairGender>Male</hairGender>
         <texPath>Things/Pantoran/Hairs/UEHairBun</texPath>
