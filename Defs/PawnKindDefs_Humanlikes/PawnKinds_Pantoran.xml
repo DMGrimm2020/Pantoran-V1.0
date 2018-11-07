@@ -12,6 +12,7 @@
     </backstoryCategories>
     <invNutrition>2.55</invNutrition>
     <apparelTags>
+      <li>Citizen</li>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
     </apparelTags>
@@ -70,12 +71,12 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>Gun</li>
+      <li>Pistol</li>
       <li>MedievalMeleeBasic</li>
     </weaponTags>
     <weaponMoney>
-      <min>65</min>
-      <max>250</max>
+      <min>500</min>
+      <max>600</max>
     </weaponMoney>
     <apparelMoney>
       <min>200</min>
@@ -112,11 +113,12 @@
     </apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponTags>
-      <li>Gun</li>
+      <li>Pistol</li>
+      <li>Baton</li>
     </weaponTags>
     <weaponMoney>
-      <min>250</min>
-      <max>400</max>
+      <min>500</min>
+      <max>600</max>
     </weaponMoney>
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>
@@ -141,11 +143,11 @@
     </gearHealthRange>
     <itemQuality>Normal</itemQuality>
     <weaponTags>
-      <li>Gun</li>
+      <li>Pistol</li>
     </weaponTags>
     <weaponMoney>
-      <min>200</min>
-      <max>200</max>
+      <min>500</min>
+      <max>600</max>
     </weaponMoney>
     <apparelMoney>
       <min>400</min>
@@ -185,11 +187,11 @@
     </gearHealthRange>
     <itemQuality>Excellent</itemQuality>
     <weaponMoney>
-      <min>200</min>
-      <max>200</max>
+      <min>500</min>
+      <max>1000</max>
     </weaponMoney>
     <weaponTags>
-      <li>Gun</li>
+      <li>Pistol</li>
     </weaponTags>
     <apparelMoney>
       <min>700</min>
